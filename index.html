@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blog</title>
+
+  <!-- Мета-теги для SEO -->
+  <meta name="description" content="Tech Blog с обзорами гаджетов, программ и советами по использованию MacBook.">
+  <meta name="keywords" content="гаджеты, программы, MacBook, обзоры технологий, советы по использованию">
+  <meta name="author" content="Твой Имя">
+
+  <!-- Подключение шрифта Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Подключение стилей -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Подключение AOS (анимации при прокрутке) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Подключение Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RX3KC5NMLS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RX3KC5NMLS');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Tech Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#gadgets">Гаджеты</a></li>
+          <li><a href="#programs">Программы</a></li>
+          <li><a href="#tips">Советы</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="gadgets" data-aos="fade-up">
+      <div class="container">
+        <h2>Гаджеты</h2>
+        <p>Обзоры новейших гаджетов: смартфонов, ноутбуков и аксессуаров.</p>
+        <img src="/images.jpeg" alt="Гаджеты">
+      </div>
+    </section>
+
+    <section id="programs" data-aos="fade-up">
+      <div class="container">
+        <h2>Программы</h2>
+        <p>Полезные программы и приложения для продуктивной работы.</p>
+        <img src="/Xcode.jpeg" width="600" alt="Программы">
+      </div>
+    </section>
+
+    <section id="tips" data-aos="fade-up">
+      <div class="container">
+        <h2>5 причин выбрать MacBook</h2>
+        <ul>
+          <li><strong>Высокое качество сборки</strong>: MacBook отличается прочностью и элегантным дизайном.</li>
+          <li><strong>Долгая работа батареи</strong>: В среднем, MacBook работает до 12 часов без подзарядки.</li>
+          <li><strong>Удобная операционная система</strong>: macOS проста в использовании и безопасна.</li>
+          <li><strong>Отличные приложения</strong>: многие программы, такие как Final Cut Pro и Xcode, работают исключительно на Mac.</li>
+          <li><strong>Хорошая производительность</strong>: для большинства пользователей MacBook будет работать быстро и без лагов.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Блок с постами -->
+    <section id="blog-posts" data-aos="fade-up">
+      <div class="container">
+        <h2>Последние посты</h2>
+        <div class="post-card">
+          <img src="post1.jpeg" alt="Пост 1">
+          <div class="post-content">
+            <h3>Заголовок поста 1</h3>
+            <p>Краткое описание поста 1. Очень интересная информация о новых гаджетах...</p>
+            <a href="#">Читать дальше</a>
+          </div>
+        </div>
+        <div class="post-card">
+          <img src="post2.jpeg" alt="Пост 2">
+          <div class="post-content">
+            <h3>Заголовок поста 2</h3>
+            <p>Краткое описание поста 2. Узнай, как выбрать лучший MacBook...</p>
+            <a href="#">Читать дальше</a>
+          </div>
+        </div>
+        <div class="post-card">
+          <img src="post3.jpeg" alt="Пост 3">
+          <div class="post-content">
+            <h3>Заголовок поста 3</h3>
+            <p>Краткое описание поста 3. Советы по продуктивности с новыми приложениями...</p>
+            <a href="#">Читать дальше</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ad" data-aos="fade-up">
+      <div class="container">
+        <h2>Реклама</h2>
+        <iframe src="https://www.example.com/ad" width="100%" height="300" frameborder="0"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Tech Blog. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- Подключение AOS (анимации при прокрутке) -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
